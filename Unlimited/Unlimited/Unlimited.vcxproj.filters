@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Graphics\Shader.cpp" />
+    <ClCompile Include="Math\MathF.cpp" />
+    <ClCompile Include="Utilities\Helper.cpp" />
+    <ClCompile Include="Utilities\Time.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Events\Base\Event.cpp" />
+    <ClCompile Include="Events\Base\EventArgs.cpp" />
+    <ClCompile Include="Events\Base\EventHandler.cpp" />
+    <ClCompile Include="Graphics\Mesh\Mesh.cpp" />
+    <ClCompile Include="Graphics\Graphics.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics\Shader.h" />
+    <ClInclude Include="Math\Vector.h" />
+    <ClInclude Include="Math\Matrix.h" />
+    <ClInclude Include="Math\MathF.h" />
+    <ClInclude Include="Utilities\Helpers.h" />
+    <ClInclude Include="Utilities\Time.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Events\Base\Event.h" />
+    <ClInclude Include="Events\Base\EventArgs.h" />
+    <ClInclude Include="Events\Base\EventHandler.h" />
+    <ClInclude Include="Graphics\Mesh\Mesh.h" />
+    <ClInclude Include="Graphics\Graphics.h" />
+  </ItemGroup>
+</Project>

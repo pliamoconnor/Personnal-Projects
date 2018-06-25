@@ -1,0 +1,6 @@
+﻿  Building Custom Rule E:/Users/Liam/Projects/Unlimited/Dependencies/glfw-3.2.1/tests/CMakeLists.txt
+  CMake does not need to re-run because E:/Users/Liam/Projects/Unlimited/Dependencies/glfw-3.2.1/build/tests/CMakeFiles/generate.stamp is up-to-date.
+  title.c
+  glad.c
+  Generating Code...
+  title.vcxproj -> E:\Users\Liam\Projects\Unlimited\Dependencies\glfw-3.2.1\build\tests\Debug\title.exe

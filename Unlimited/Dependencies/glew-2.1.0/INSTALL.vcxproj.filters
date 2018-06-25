@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Users\Liam\Projects\Unlimited\Dependencies\glew-2.1.0\CMakeFiles\20442c3672ae788212817cdb99897a36\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{43B24E23-D35B-3E20-93CB-034E7C8F27F3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

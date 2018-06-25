@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/Users/Liam/Projects/Unlimited/Dependencies/glew-2.1.0/build/cmake/CMakeLists.txt
+  CMake does not need to re-run because E:/Users/Liam/Projects/Unlimited/Dependencies/glew-2.1.0/CMakeFiles/generate.stamp is up-to-date.
+  glew.c
+  glew_s.vcxproj -> E:\Users\Liam\Projects\Unlimited\Dependencies\glew-2.1.0\lib\Debug\libglew32d.lib
