@@ -11,7 +11,7 @@ public:
 	void CleanUp();
 
 	//Compiles the shaders from strings into shader objects
-	unsigned int CreateShader(GLenum shaderType, const char* shaderString, const char* additionalIncludes = 0);
+	unsigned int CreateShader(unsigned int shaderType, const char* shaderString, const char* additionalIncludes = 0);
 
 	bool Initialize(const char* vertexFileString, const char* fragmentFileString, const char* geometryFileString = 0, const char* computeFileString = 0, const char* additionalFileString = 0);
 

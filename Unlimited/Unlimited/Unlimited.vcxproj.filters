@@ -12,6 +12,11 @@
     <ClCompile Include="Graphics\Mesh\Mesh.cpp" />
     <ClCompile Include="Graphics\Graphics.cpp" />
     <ClCompile Include="Utilities\Helpers.cpp" />
+    <ClCompile Include="Graphics\Material.cpp" />
+    <ClCompile Include="Graphics\Texture.cpp" />
+    <ClCompile Include="Core\Gameobject.cpp" />
+    <ClCompile Include="Core\Component.cpp" />
+    <ClCompile Include="Core\ResourceManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphics\Shader.h" />
@@ -26,5 +31,10 @@
     <ClInclude Include="Events\Base\EventHandler.h" />
     <ClInclude Include="Graphics\Mesh\Mesh.h" />
     <ClInclude Include="Graphics\Graphics.h" />
+    <ClInclude Include="Graphics\Material.h" />
+    <ClInclude Include="Graphics\Texture.h" />
+    <ClInclude Include="Core\Gameobject.h" />
+    <ClInclude Include="Core\Component.h" />
+    <ClInclude Include="Core\ResourceManager.h" />
   </ItemGroup>
 </Project>

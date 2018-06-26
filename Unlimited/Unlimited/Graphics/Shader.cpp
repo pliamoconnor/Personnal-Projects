@@ -66,7 +66,7 @@ void ShaderProgram::CleanUp()
 	}
 }
 
-unsigned int ShaderProgram::CreateShader(GLenum shaderType, const char* shaderString, const char* additionalIncludes)
+unsigned int ShaderProgram::CreateShader(unsigned int shaderType, const char* shaderString, const char* additionalIncludes)
 {
 	//If their are any additional includes then take them in here
 	char* fullShaderString = const_cast<char*>(shaderString);

@@ -126,11 +126,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Core\Component.cpp" />
+    <ClCompile Include="Core\Gameobject.cpp" />
+    <ClCompile Include="Core\ResourceManager.cpp" />
     <ClCompile Include="Events\Base\Event.cpp" />
     <ClCompile Include="Events\Base\EventArgs.cpp" />
     <ClCompile Include="Events\Base\EventHandler.cpp" />
     <ClCompile Include="Graphics\Graphics.cpp" />
+    <ClCompile Include="Graphics\Material.cpp" />
     <ClCompile Include="Graphics\Mesh\Mesh.cpp" />
+    <ClCompile Include="Graphics\Texture.cpp" />
     <ClCompile Include="Utilities\Helpers.cpp" />
     <ClCompile Include="Graphics\Shader.cpp" />
     <ClCompile Include="main.cpp" />
@@ -139,11 +144,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
+    <ClInclude Include="Core\Component.h" />
+    <ClInclude Include="Core\Gameobject.h" />
+    <ClInclude Include="Core\ResourceManager.h" />
     <ClInclude Include="Events\Base\Event.h" />
     <ClInclude Include="Events\Base\EventArgs.h" />
     <ClInclude Include="Events\Base\EventHandler.h" />
     <ClInclude Include="Graphics\Graphics.h" />
+    <ClInclude Include="Graphics\Material.h" />
     <ClInclude Include="Graphics\Mesh\Mesh.h" />
+    <ClInclude Include="Graphics\Texture.h" />
     <ClInclude Include="Utilities\Helpers.h" />
     <ClInclude Include="Graphics\Shader.h" />
     <ClInclude Include="Math\MathF.h" />
