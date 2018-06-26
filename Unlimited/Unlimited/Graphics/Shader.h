@@ -11,12 +11,12 @@ public:
 	void CleanUp();
 
 	//Compiles the shaders from strings into shader objects
-	GLuint CompileShader(GLenum shaderType, const char* shaderString, const char* additionalIncludes = 0);
+	unsigned int CreateShader(GLenum shaderType, const char* shaderString, const char* additionalIncludes = 0);
 
 	bool Initialize(const char* vertexFileString, const char* fragmentFileString, const char* geometryFileString = 0, const char* computeFileString = 0, const char* additionalFileString = 0);
 
 	//The program object related to this shader
-	GLuint GetProgram() { return m_Program; }
+	unsigned int GetProgram() { return m_Program; }
 
 private:
 	//Holds the vertex shader as a string
@@ -32,15 +32,15 @@ private:
 	char* m_AdditionalIncludes;
 
 	//Buffer that holds the vertex shader
-	GLuint m_VertexShader;
+	unsigned int m_VertexShader;
 	//Buffer that holds the geometry shader
-	GLuint m_GeometryShader;
+	unsigned int m_GeometryShader;
 	//Buffer that holds the fragment shader
-	GLuint m_FragmentShader;
+	unsigned int m_FragmentShader;
 	//Buffer that holds the compute shader
-	GLuint m_ComputeShader;
+	unsigned int m_ComputeShader;
 
 	//Buffer that contains the program object
-	GLuint m_Program;
+	unsigned int m_Program;
 };
 #endif

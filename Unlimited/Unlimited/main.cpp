@@ -24,6 +24,9 @@ int main()
 		return -1;
 	}
 
+	char* mem = ReadFile("Assets/Shaders/Default.vertex");
+	delete mem;
+
 	//Make the window's context current
 	glfwMakeContextCurrent(window);
 
@@ -37,8 +40,8 @@ int main()
 
 		eventHandler->ProcessEvents();
 
-		std::cout << "Time elapsed in this program is: " << Time::TimeElapsed() << std::endl;
-		std::cout << "Delta time this frame is equal to: " << Time::DeltaTime() << std::endl;
+		//std::cout << "Time elapsed in this program is: " << Time::TimeElapsed() << std::endl;
+		//std::cout << "Delta time this frame is equal to: " << Time::DeltaTime() << std::endl;
 
 		//render
 		glClear(GL_COLOR_BUFFER_BIT);

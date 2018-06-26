@@ -285,10 +285,10 @@ public:
 };
 
 
-#define vec2 Vector2
-#define vec3 Vector3
-#define vec4 Vector4
-#define ivec2 iVector2
-#define ivec3 iVector3
+typedef Vector2 vec2;
+typedef Vector3 vec3;
+typedef Vector4 vec4;
+typedef iVector2 ivec2;
+typedef iVector3 ivec3;
 
 #endif

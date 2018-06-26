@@ -1,1 +1,3 @@
-﻿  glew.vcxproj -> E:\Users\Liam\Projects\Unlimited\Dependencies\glew-2.1.0\bin\Debug\glew32d.dll
+﻿  glew.c
+     Creating library E:/Users/Liam/Projects/Unlimited/Dependencies/glew-2.1.0/lib/Debug/glew32d.lib and object E:/Users/Liam/Projects/Unlimited/Dependencies/glew-2.1.0/lib/Debug/glew32d.exp
+  glew.vcxproj -> E:\Users\Liam\Github\Repo\Personnal-Projects\Unlimited\Dependencies\glew-2.1.0\bin\Debug\glew32d.dll

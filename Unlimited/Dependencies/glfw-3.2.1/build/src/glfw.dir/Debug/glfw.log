@@ -1,6 +1,4 @@
-﻿  Building Custom Rule E:/Users/Liam/Projects/Unlimited/Dependencies/glfw-3.2.1/src/CMakeLists.txt
-  CMake does not need to re-run because E:/Users/Liam/Projects/Unlimited/Dependencies/glfw-3.2.1/build/src/CMakeFiles/generate.stamp is up-to-date.
-  context.c
+﻿  context.c
   init.c
   input.c
   monitor.c
