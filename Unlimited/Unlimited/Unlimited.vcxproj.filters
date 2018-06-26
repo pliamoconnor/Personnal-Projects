@@ -4,7 +4,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Graphics\Shader.cpp" />
     <ClCompile Include="Math\MathF.cpp" />
-    <ClCompile Include="Utilities\Helper.cpp" />
     <ClCompile Include="Utilities\Time.cpp" />
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="Events\Base\Event.cpp" />
@@ -12,6 +11,7 @@
     <ClCompile Include="Events\Base\EventHandler.cpp" />
     <ClCompile Include="Graphics\Mesh\Mesh.cpp" />
     <ClCompile Include="Graphics\Graphics.cpp" />
+    <ClCompile Include="Utilities\Helpers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphics\Shader.h" />

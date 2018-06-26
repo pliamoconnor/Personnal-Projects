@@ -131,7 +131,7 @@
     <ClCompile Include="Events\Base\EventHandler.cpp" />
     <ClCompile Include="Graphics\Graphics.cpp" />
     <ClCompile Include="Graphics\Mesh\Mesh.cpp" />
-    <ClCompile Include="Utilities\Helper.cpp" />
+    <ClCompile Include="Utilities\Helpers.cpp" />
     <ClCompile Include="Graphics\Shader.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Math\MathF.cpp" />

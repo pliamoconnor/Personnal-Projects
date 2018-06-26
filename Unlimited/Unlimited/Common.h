@@ -12,6 +12,8 @@
 #include "Graphics\Graphics.h"
 
 #include <assert.h>
+#include <vector>
+#include <map>
 
 #include "Math\Vector.h"
 #include "Math\Matrix.h"
@@ -20,9 +22,6 @@
 #include "Utilities\Time.h"
 
 #include "Utilities\Helpers.h"
-
-#include <vector>
-#include <map>
 
 #include "Events\Base\Event.h"
 #include "Events\Base\EventArgs.h"
